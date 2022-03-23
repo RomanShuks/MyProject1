@@ -4,7 +4,8 @@ public class HUAhua {
 
 
         int l = 8;
-        System.out.println("Площадь квадрата со стороной " + l + " = " + (l * l));
+        int s = l * l;
+        System.out.println("Площадь квадрата со стороной " + l + " = " + s);
 
     }
 }
