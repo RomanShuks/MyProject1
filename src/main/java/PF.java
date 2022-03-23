@@ -4,15 +4,13 @@ public class PF {
         hello("FCK");
         hello("Night");
 
-        Square s = new Square();
-        s.l = 5;
-
+        Square s = new Square(5);
         double l = 5;
         System.out.println("Площадь квадрата со стороной " + s.l + " = " + area(s));
 
-        Rectangle r = new Rectangle();
-        double a = 4;
-        double b = 6;
+
+
+        Rectangle r = new Rectangle(4,6);
         System.out.println("Площадь прмоугольника со сторонами " + r.a + " и " + r.b + " = " + area(r));
     }
 
@@ -20,7 +18,7 @@ public class PF {
         System.out.println("Smile, " + soso + "!");
     }
 
-    public static double area(double Square s) {
+    public static double area(Square s) {
         return s.l  * s.l;
     }
 
